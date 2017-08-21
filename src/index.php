@@ -18,7 +18,7 @@
                 <h1>GBM sample app</h1>
                 <h2>Congratulations</h2>
                 <p>Your PHP application is now running on a container in Amazon ECS.</p>
-                <p>This is version 1.1</p>
+                <p>This is version 1.2</p>
                 <?php
                         $myfile = fopen("/var/www/my-vol/date", "r") or die("");
                         echo fread($myfile,filesize("/var/www/my-vol/date"));
